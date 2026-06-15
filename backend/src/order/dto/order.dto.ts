@@ -1,4 +1,3 @@
-//TODO реализовать DTO для /orders
 import { Type } from 'class-transformer';
 import {
   IsArray,
