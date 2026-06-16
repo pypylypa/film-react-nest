@@ -35,7 +35,7 @@ services:
     image: ghcr.io/pypylypa/film-react-nest/nginx:review-2-for-sprint-17
     restart: unless-stopped
     ports:
-      - "80:80"
+      - "81:80"
     volumes:
       - frontend_dist:/usr/share/nginx/html
     depends_on:
