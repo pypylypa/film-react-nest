@@ -9,6 +9,7 @@ services:
       - .env
     volumes:
       - postgres_data:/var/lib/postgresql/data
+      - ./db:/docker-entrypoint-initdb.d/
     networks:
       - backend-network
   backend:
@@ -37,7 +38,7 @@ services:
     ports:
       - "81:80"
     volumes:
-      - frontend_dist:/usr/share/nginx/html
+      - frontend_dist:/usr/share/nginx/dist
     depends_on:
       - backend
     networks:
