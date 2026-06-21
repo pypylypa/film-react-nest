@@ -1,7 +1,12 @@
+Деплой
+Frontend: https://pypylypa-film.nomorepartiessite.ru/
+
+API: https://api.pypylypa-film.nomorepartiessite.ru/
+
 # FILM!
 
 ## Установка
-api.pypylypa-film.nomorepartiessite.ru
+
 ### MongoDB
 
 Установите MongoDB скачав дистрибутив с официального сайта или с помощью пакетного менеджера вашей ОС. Также можно воспользоваться Docker (см. ветку `feat/docker`.
